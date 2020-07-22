@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background: #fff;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: block;
+    cursor: pointer;
+}
+
+.btn {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
